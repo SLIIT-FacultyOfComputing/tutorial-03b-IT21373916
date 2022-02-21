@@ -10,6 +10,7 @@ int main() {
  for (int r = 0; r < 5; r++) {
      cout << setw(5) << setiosflags(ios::fixed) << setprecision(2) << r+1 
          << setw(15) << setiosflags(ios::fixed) << setprecision(2) <<  names[r]
-         << setw(10) << setiosflags(ios::fixed) << setprecision(2) << marks[r] << endl;
+         << setw(10) << setiosflags(ios::fixed) << setprecision(2) << marks[r] 
+         << endl;
  }
 }
